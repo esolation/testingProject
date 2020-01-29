@@ -1,0 +1,73 @@
+.nav-box {
+  width: 20%;
+  padding: 2em 1em;
+  border-radius: 18px;
+  background-color: white;
+  color: black;
+  font-size: 1.3em;
+  position: sticky;
+  position: -webkit-sticky;
+  display: inline-block;
+  top: -1px;
+}
+
+.nav-box ul li {
+  color: black;
+  text-align: left;
+}
+
+.nav-box ul {}
+
+.info-box {
+  color: white;
+  width: 75%;
+  float: right;
+}
+
+.info-box img {
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin: 1em;
+}
+
+.info-table {
+  font-size: 1.3em;
+  padding: 1em;
+}
+
+.test-stat-box {
+  color: black;
+  width: 75%;
+  float: right;
+}
+.test-name-stat {
+  background: linear-gradient(white, lightgrey);
+  border-left: 4px solid #f60;
+  padding: .1em;
+  font-size: 1.3em;
+  /* margin: 1em 0; */
+  display: flex;
+  justify-content: space-between;
+  color: black;
+}
+.test-name-stat:hover {
+  font-size: 1.7em;
+  padding: .1 2em;
+}
+.mark {
+  font-size: 1.3em;
+}
+main .main-my_stat {
+      display: flex;
+      padding-bottom:2em;
+}
+.print-stat-btn, .trener-stat-btn {
+        font-size: 1em;
+        cursor: pointer;
+        background: #ddd;
+        padding: .5em 1em;
+}
+.trener-stat-btn {
+  margin-left: auto;
+}

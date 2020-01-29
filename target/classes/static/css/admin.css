@@ -1,0 +1,35 @@
+.test-name-admin {
+  background: linear-gradient(white, lightgrey);
+  border-left: 4px solid #f60;
+  padding: .1em;
+  font-size: 1.3em;
+  /* margin: 1em 0; */
+  display: flex;
+  justify-content: space-between;
+  color: black;
+}
+.test-name-admin p {
+  width: 85%;
+}
+.test-admin-veiw, .test-admin-edit, .test-admin-del {
+  font-size: 1.3em;
+  border:0px solid white;
+      background-color: transparent;
+          vertical-align: middle;
+              padding: .1em;
+}
+.test-admin-veiw:hover {
+  cursor: pointer;
+  color: DodgerBlue;
+}
+.test-admin-edit:hover {
+  cursor: pointer;
+  color: MediumSeaGreen;
+}
+.test-admin-del:hover {
+  cursor: pointer;
+  color: red;
+}
+.add-test {
+  margin: 1em;
+}

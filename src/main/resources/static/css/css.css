@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.main-img {
+  background: url(books-with-graduation-cap-and-diploma.jpg), linear-gradient(#484777, white);
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.main-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.registration {
+  display: flex;
+  flex-flow: column;
+  /* border: 1px solid lightgrey; */
+  border-radius: 10px;
+  padding: 2em;
+  background: radial-gradient(at top, #484777, #c1cbca8c);
+  -webkit-box-shadow: 0 0 1em rgba(82, 82, 82, 1);
+  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow: 0 0 1em rgba(82, 82, 82, 1);
+  /* Firefox 3.5 - 3.6 */
+  box-shadow: 0 0 1em rgba(82, 82, 82, 1);
+}
+
+.registration img {
+  width: 40%;
+  margin-left: 30%;
+}
+
+.input-main-log, .input-main-pass {
+  margin: 1em 0;
+  padding: .7em;
+  border-radius: 18px;
+}
+
+.fdp {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 10%;
+}
+
+.emty {
+  width: 15%;
+}
+
+.fdp, .registration h1 {
+  color: white;
+  font-size: 2vw;
+  text-align: center;
+}
+
+.main-txt {
+  color: white;
+  font-size: 1.5vw;
+}
+
+.login-btn {
+  width: 100%;
+  margin: 1em 0;
+  padding: .6em;
+  text-align: center;
+  border-radius: 18px;
+  box-sizing: border-box;
+  cursor: pointer;
+  color: white;
+  outline: none;
+  border: 2px solid white;
+  overflow: visible;
+  transition: all 0.2s ease-in-out 0s;
+}
+
+.login-btn:hover {
+  box-shadow: 5px 7px 18px -3px rgba(192, 192, 192, 1);
+  transform: scale(1.05, 1.05);
+  color: #f60;
+}
+
+.forgot-pass {
+  text-align: right;
+  font-size: .7vw;
+}
+
+.signup {
+  text-align: center;
+}
+
+.signup, .login-btn, .input-main-log, .input-main-pass {
+  font-size: 1vw;
+}
+a {
+   text-decoration: none;
+   color: inherit;
+}
+
+
+body {
+   color: #333;
+   font: .8em tahoma, arial, normal;
+   background: url(books-with-graduation-cap-and-diploma.jpg), linear-gradient(gray, white);
+   background-position: center;
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   width: 80%;
+   margin: 0  auto;
+   padding: 1em;
+   min-width: 400px;
+
+}
+input[type=search] {
+        font-size: 1em;
+        padding: .5em;
+        border: none;
+}
+.search button:hover {
+        background: #ccc;
+}
+
+
+header h1 {
+  color: white;
+  text-shadow: .1em .1em #4a4a4a;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+.test-name {
+    background: linear-gradient(white, lightgrey);
+    border-left: 4px solid #f60;
+    padding: .1em 1.5em;
+    font-size: 1.3em;
+    margin: 1em 0;
+    display: flex;
+    justify-content: space-between;
+}
+.test-name h1 {
+  display: inline-block;
+}
+header {
+  background:  linear-gradient(to bottom, #525252 55%, #4b4948 45%); /*linear-gradient(#8e8e8e, #1b1a1a);*/
+      padding: 1em 1em 0 1em;
+  border-width: inherit;
+  border-radius: 1em 1em 0em 0em;
+  box-shadow: 0 0 1em rgba(82, 82, 82, 1);
+  margin: 1em 0;
+}
+main {
+
+margin: 0 auto;
+
+}
+ul {
+  -webkit-padding-start: 1em;
+  list-style-type : none;
+  color: inherit;
+}
+.menubar ul {
+  display: flex;
+  margin: auto;
+  font-size: 1.3em;
+  padding:1em;
+}
+li {
+  flex-grow: 1;
+  text-align: center;
+  color: white;
+}
+a:hover, h1:hover {
+  color: #f60;
+}
+.main-header {
+  display: flex;
+}
+.search {
+  display: inline-flex;
+  align-items: center;
+  margin-left: auto;
+}
+input[type=search] {
+        font-size: 1em;
+        padding: .5em;
+        border: none;
+}
+.search button:hover {
+        background: #ccc;
+}
+#categoria {
+  color: white;
+  text-align: center;
+  font-size: 2.5em;
+}
+.categories-box {
+  display: flex;
+  justify-content: space-around;
+      margin: 1em 0;
+}
+.categories {
+  font-size: 1em;
+  color: white;
+  border: 1px solid white;
+  border-radius: 18px;
+  padding: .5em 1em;
+  display: inline-block;
+}
+.categories:hover, .categories a:hover {
+  color:white;
+}
+.categories.rus {
+  background-color: Tomato;
+}
+.categories.mat {
+  background-color: Violet;
+}
+.categories.fiz {
+  background-color: MediumSeaGreen;
+}
+.categories.bio {
+  background-color: DodgerBlue;
+}
+.categories.him {
+  background-color: SlateBlue;
+}
+
+.test-box {
+  background-color: white;
+    padding: 1em;
+}
